@@ -20,8 +20,33 @@
 
 
 
-a = 1000
-b = 1000
-print(a == b)  # True (Same value)
-print(a is b)  # False (Different memory locations)
-print(id(a), id(b))  # Different IDs (not cached)
+# a = 1000
+# b = 1000
+# print(a == b)  # True (Same value)
+# print(a is b)  # False (Different memory locations)
+# print(id(a), id(b))  # Different IDs (not cached)
+
+
+
+
+# string_methods : str = dir(str)
+# filtered_methods : str = [method for method in string_methods if not method.startswith("__")]
+# print(filtered_methods)
+
+
+
+
+# word = "Python"
+# for letter in word:
+#     print(letter)
+
+
+
+
+numbers = [1,2,3,4,6]
+for num in numbers:
+    if num == 2:
+        print("Breaking the loop!")
+        break
+else:
+    print("Loop successfully completed")
