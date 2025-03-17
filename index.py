@@ -43,10 +43,30 @@
 
 
 
-numbers = [1,2,3,4,6]
-for num in numbers:
-    if num == 2:
-        print("Breaking the loop!")
-        break
-else:
-    print("Loop successfully completed")
+# numbers = [1,2,3,4,6]
+# for num in numbers:
+#     if num == 2:
+#         print("Breaking the loop!")
+#         break
+# else:
+#     print("Loop successfully completed")
+
+
+
+
+# for i in range(2,12,2):
+#     print(i)
+
+
+
+
+# for _ in range(10):
+#     print(f"number counting : { _ }" )
+
+
+
+
+# number: int = 1
+# while number < 8:
+#     print(f" number is : {number}")
+#     number += 1
