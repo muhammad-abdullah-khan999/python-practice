@@ -83,7 +83,17 @@
 
 
 
-total = 0
-for i in range(1 , 101):
-    total += i
-print(f"The sum of all numbers from 1 to 100 is : {total}")
+# total = 0
+# for i in range(1 , 101):
+#     total += i
+# print(f"The sum of all numbers from 1 to 100 is : {total}")
+
+
+
+
+num = 24
+factors = []
+for i in range(1, num + 1):
+    if num % i == 0:
+        factors.append(i)
+print(f"Factors of {24}: {factors}")
