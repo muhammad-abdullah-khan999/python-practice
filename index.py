@@ -70,3 +70,12 @@
 # while number < 8:
 #     print(f" number is : {number}")
 #     number += 1
+
+
+
+
+for outerLoop in range(1,6):
+    print(f"Multiplication Table for {outerLoop}")
+    for innnerLoop in range(1,4):
+        print(f"{innnerLoop} X {outerLoop} = {innnerLoop * outerLoop}")
+    print()
