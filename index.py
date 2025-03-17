@@ -74,8 +74,16 @@
 
 
 
-for outerLoop in range(1,6):
-    print(f"Multiplication Table for {outerLoop}")
-    for innnerLoop in range(1,4):
-        print(f"{innnerLoop} X {outerLoop} = {innnerLoop * outerLoop}")
-    print()
+# for outerLoop in range(1,6):
+#     print(f"Multiplication Table for {outerLoop}")
+#     for innnerLoop in range(1,4):
+#         print(f"{innnerLoop} X {outerLoop} = {innnerLoop * outerLoop}")
+#     print()
+
+
+
+
+total = 0
+for i in range(1 , 101):
+    total += i
+print(f"The sum of all numbers from 1 to 100 is : {total}")
