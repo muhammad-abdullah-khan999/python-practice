@@ -91,9 +91,16 @@
 
 
 
-num = 24
-factors = []
-for i in range(1, num + 1):
-    if num % i == 0:
-        factors.append(i)
-print(f"Factors of {24}: {factors}")
+# num = 24
+# factors = []
+# for i in range(1, num + 1):
+#     if num % i == 0:
+#         factors.append(i)
+# print(f"Factors of {num}: {factors}")
+
+
+
+
+# words = ['apple', 'banana', 'kiwi']
+# words.sort(key= lambda word: len(word))
+# print(words)
