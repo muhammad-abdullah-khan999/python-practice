@@ -127,7 +127,17 @@
 
 #Short code for Word Frequency Counter
 
-from collections import Counter
-sentence = "apple banana apple orange banana apple"
-word_count = Counter(sentence.split())
-print(word_count)
+# from collections import Counter
+# sentence = "apple banana apple orange banana apple"
+# word_count = Counter(sentence.split())
+# print(word_count)
+
+
+
+#Basic syntax for dictionary comprehension
+#{key_expression: value_expression foritem in iterable if condition } # condition is optional
+
+original_dict = {"a":0 ,"b": 2, "c": 3 }
+print("original_dict = " , original_dict)
+doubled_dict = {k : v*2 for k,v in original_dict.items() if v > 0}
+print("doubled_dict = ", doubled_dict)
