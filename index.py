@@ -137,7 +137,17 @@
 #Basic syntax for dictionary comprehension
 #{key_expression: value_expression foritem in iterable if condition } # condition is optional
 
-original_dict = {"a":0 ,"b": 2, "c": 3 }
-print("original_dict = " , original_dict)
-doubled_dict = {k : v*2 for k,v in original_dict.items() if v > 0}
-print("doubled_dict = ", doubled_dict)
+# original_dict = {"a":0 ,"b": 2, "c": 3 }
+# print("original_dict = " , original_dict)
+# doubled_dict = {k : v*2 for k,v in original_dict.items() if v > 0}
+# print("doubled_dict = ", doubled_dict)
+
+
+
+
+#Temperature Converter from Celsius to Fahrenhiet
+
+celsuis = {0,10,20,30,40}
+fahrenhiet_temp = {str(c) + f"{chr(176)}C" : str((c * 9/5) + 32) + f"{chr(176)}F" for c in celsuis}
+print(fahrenhiet_temp)
+
