@@ -110,14 +110,24 @@
 
 #Word Frequency Counter
 
+# sentence = "apple banana apple orange banana apple"
+# words:list = sentence.split()
+# wordCount = {}
+
+# for word in words:
+#     if word in wordCount:
+#         wordCount[word] +=1
+#     else:
+#         wordCount[word] = 1
+
+# print(wordCount)
+
+
+
+
+#Short code for Word Frequency Counter
+
+from collections import Counter
 sentence = "apple banana apple orange banana apple"
-words:list = sentence.split()
-wordCount = {}
-
-for word in words:
-    if word in wordCount:
-        wordCount[word] +=1
-    else:
-        wordCount[word] = 1
-
-print(wordCount)
+word_count = Counter(sentence.split())
+print(word_count)
